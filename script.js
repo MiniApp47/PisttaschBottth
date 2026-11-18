@@ -736,6 +736,107 @@ document.addEventListener('DOMContentLoaded', function () {
                     image: '',
                     badgeText: 'Terps',
                     products: [
+                        {
+                            id: '🍁🖤 BLACK MAPLE',
+                            flag: '🇺🇸',
+                            name: '🍁🖤 BLACK MAPLE',
+                            farm: '💎 MELT MOB 💎',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductBKM.jpg',
+                            images: ['ProductBKM1.jpg'],
+                            video: 'VideoBKM.mov',
+                            description: `🚨💎🍁 NEW DROP — PISTACHIO 420 🍁💎🚨
+
+🥶❄️ FRESH FROZEN — PREMIUM SELECTION ❄️🥶
+
+🔥 UNE SIGNATURE GOURMANDE AU CARACTÈRE BIEN AFFIRMÉ ! 🔥
+
+🍁🍯 Un profil aromatique qui évoque des notes de sirop d’érable, une douceur sucrée et des nuances boisées, pour une identité riche et profonde ! 🖤✨
+
+🥶 FRESH FROZEN — Une méthode de conservation à froid pensée pour préserver la richesse aromatique de la matière première et mettre en valeur le savoir-faire du hash maker. ❄️💎
+
+👑 MELT MOB — Une nouvelle référence qui rejoint notre sélection, avec une identité qui se démarque ! 🤝
+
+💚🌰 PISTACHIO 420 — L’AMOUR DU GOÛT DEPUIS 2019. 🌰💚
+
+💎🍁 BLACK MAPLE — UNE IDENTITÉ SOMBRE, UNE SIGNATURE GOURMANDE !`,
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
+                        {
+                            id: '🥭 PAPAYA',
+                            flag: '🇺🇸',
+                            name: '🥭 PAPAYA',
+                            farm: '💎 MELT MOB 💎',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductPY.jpg',
+                            images: ['ProductPY1.jpg'],
+                            video: 'VideoPY.mov',
+                            description: `🚨💎🥭 NEW DROP — PISTACHIO 420 🥭💎🚨
+
+🥶❄️ FRESH FROZEN — PREMIUM SELECTION ❄️🥶
+
+🥭 STRAIN : PAPAYA
+
+
+🔥 UNE EXPLOSION TROPICALE À L’IDENTITÉ UNIQUE ! 🔥
+
+🥭🌴 Un profil aromatique qui évoque la papaye bien mûre, des notes de fruits exotiques et une douceur naturellement sucrée ! 🍯✨
+
+🥶 FRESH FROZEN — Une méthode de conservation à froid qui vise à préserver toute la richesse aromatique de la matière première. ❄️💎
+
+👑 MELT MOB — Un travail de précision qui met à l’honneur le savoir-faire du hash maker et l’identité de chaque variété ! 🤝
+
+💚🌰 PISTACHIO 420 — L’AMOUR DU GOÛT DEPUIS 2019. 🌰💚
+
+💎🥭 PAPAYA — UNE SIGNATURE TROPICALE QUI NE PASSE PAS INAPERÇUE ! 🌴🔥`,
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                            ]
+                        },
+                        {
+                            id: '🍇⛽️ GRAPPE GASOLINE',
+                            flag: '🇺🇸',
+                            name: '🍇⛽️ GRAPPE GASOLINE',
+                            farm: '💎 MELT MOB 💎',
+                            promoEligible: true,
+                            type: 'FROZEN PREMIUM ❄️',
+                            image: 'ProductGGS.jpg',
+                            images: ['ProductGGS1.jpg'],
+                            video: 'VideoGGS.mov',
+                            description: ` 🚨💎🍇 NEW DROP — PISTACHIO 420 🍇💎🚨
+
+🥶❄️ FRESH FROZEN — PREMIUM SELECTION ❄️🥶
+
+🍇⛽️ STRAIN : GRAPPE GASOLINE
+💎 FARM : MELT MOB 💎
+
+🔥 DU FRUIT, DU GAZ, UNE IDENTITÉ QUI S’IMPOSE ! 🔥
+
+🍇 Un profil aromatique qui promet une rencontre entre des notes de raisin gourmandes et un caractère gazeux intense. ⛽️💨
+
+🥶 FRESH FROZEN — Un travail de conservation à froid qui met à l’honneur la fraîcheur de la matière, les arômes et le savoir-faire du hash maker. ❄️💎
+
+👑 MELT MOB — Une nouvelle signature qui rejoint notre sélection, avec un caractère bien affirmé ! 🤝
+
+💚🌰 PISTACHIO 420 — L’AMOUR DU GOÛT DEPUIS 2019. 🌰💚
+
+💎🍇 GRAPPE GASOLINE — LE NOM ANNONCE LA COULEUR ! ⛽️🔥`,
+                            tarifs: [
+                                { weight: '10g', price: 130.00 },
+                                { weight: '25g', price: 230.00 },
+                                { weight: '50g', price: 400.00 },
+                                { weight: '100g', price: 750.00 },
+                            ]
+                        },
                          {
                             id: '🫒 YAMAHA X REDBULL',
                             flag: '🇺🇸',
@@ -797,7 +898,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 { weight: '4 olives', price: 250.00 },
                             ]
                         },
-                         {
+                        /*  {
                             id: 'PEANUT BUTTER FLY 🦋💎🚨',
                             flag: '🇺🇸',
                             name: 'PEANUT BUTTER FLY 🦋💎🚨',
@@ -840,8 +941,8 @@ Un profil aromatique aux notes de beurre de cacahuète, avec une identité gourm
                                 { weight: '50g', price: 400.00 },
                                 { weight: '100g', price: 730.00 },
                             ]
-                        },
-                         {
+                        }, */
+                         /* {
                             id: '🌿 GARY PAYTON 🌿 ',
                             flag: '🇺🇸',
                             name: '🌿 GARY PAYTON 🌿 ',
@@ -867,7 +968,7 @@ Un profil aromatique aux notes de beurre de cacahuète, avec une identité gourm
                                 { weight: '50g', price: 400.00 },
                                 { weight: '100g', price: 730.00 },
                             ]
-                        },
+                        }, */
                         /*   {
                             id: '💜💎 RS11 💎💜',
                             flag: '🇺🇸',
@@ -1310,6 +1411,39 @@ Une matière bien travaillée, sèche au toucher mais avec ce côté crémeux qu
                     badgeText: 'Saison 2026',
                     products: [
                         {
+                            id: '🍊🍨 PURPLE ICE CREAM TANGIE',
+                            flag: '🇲🇦',
+                            name: '🍊🍨 PURPLE ICE CREAM TANGIE',
+                            farm: '💎 THERPS INDUSTRY 💎',
+                            promoEligible: true,
+                            type: 'STATIC MOROCCO 🇲🇦',
+                            image: 'ProductPI.jpg',
+                            images: ['ProductPI1.jpg'],
+                            video: 'VideoPI.mov',
+                            description: `🚨💎🟣 NEW DROP — PISTACHIO 420 🟣💎🚨
+
+🥶🖐️ STATIC SIFT — PREMIUM SELECTION 🖐️🥶
+
+🍊🍨 STRAIN : PURPLE ICE CREAM TANGIE 🟣
+💎 FARM : THERPS INDUSTRY 💎
+
+🔥 UNE RENCONTRE ENTRE LE FRUITÉ ET LE GOURMAND ! 🔥
+
+🍊 Une identité aromatique qui associe les notes d’agrumes de la Tangie à la douceur crémeuse évoquée par la Purple Ice Cream. 🍨🟣
+
+💎 STATIC SIFT — Une méthode de séparation minutieuse qui met à l’honneur le travail et le savoir-faire du hash maker. 🖐️❄️
+
+👑 THERPS INDUSTRY — Une nouvelle référence qui vient enrichir notre sélection !
+
+💚🌰 PISTACHIO 420 — L’AMOUR DU GOÛT DEPUIS 2019. 🌰💚`,
+                            tarifs: [
+                                { weight: '5g', price: 80.00 },
+                                { weight: '10g', price: 150.00 },
+                                { weight: '25g', price: 300.00 },
+                                { weight: '50g', price: 480.00 },
+                            ]
+                        },
+                        {
                             id: 'BLUE MAGIC 🫐💎',
                             flag: '🇲🇦',
                             name: '💎🫐 BLUE MAGIC 🫐💎',
@@ -1369,7 +1503,7 @@ On retrouve beaucoup de terpènes, avec une touche crémeuse 🥛 et un fond gaz
                                 { weight: '50g', price: 450.00 },
                             ]
                         }, */
-                        {
+                        /* {
                             id: '🍈 GAZ MELON',
                             flag: '🇲🇦',
                             name: '🍈 GAZ MELON',
@@ -1392,7 +1526,7 @@ Dès l’ouverture, le melon mûr 🍈 ressort fort, accompagné d’une touche 
                                 { weight: '25g', price: 250.00 },
                                 { weight: '50g', price: 450.00 },
                             ]
-                        },
+                        }, */
                         {
                             id: '🔥🥭 DOUBLE STATIC — TERPS INDUSTRY 🥭🔥',
                             flag: '🇲🇦',
